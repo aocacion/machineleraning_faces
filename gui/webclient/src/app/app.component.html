@@ -1,0 +1,35 @@
+<button type="button" class="btn btn-primary" [disabled]="deshabilitar" (click)="capturarClick()">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+<div (keyup)="0">
+    <label>Entrada: </label>
+    <input #entrada [(ngModel)]='entradaText' (click)='modificarTitulo($event)'/>
+    <strong>entrada.value:</strong>{{entrada.value}} - <strong>entradaText:</strong> {{entradaText1}}
+</div>
+<p>
+    {{nombre}}
+</p>
+<div>
+    <label>Titulo persona:</label>
+    <input type="text" class="form-control" (input)="modificarTitulo($event)">
+    <strong>Titulo: </strong> {{titulo}} <strong>TituloNg:</strong> {{tituloNg}}
+    <label>
+        <p *ngIf="mostrar">Título ngModel Persona</p>    
+    </label>
+    <p> ----  </p>
+    <label>titulo</label>
+    <input type="text" class='form-control' [(ngModel)]='tituloNg' >
+</div>
+
+<p>Hip!</p>
+<ng-template>
+  <p>Hip! interno</p>
+</ng-template>
+<p>Hooray!</p>
