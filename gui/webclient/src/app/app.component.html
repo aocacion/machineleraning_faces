@@ -10,7 +10,7 @@
 <button type="button" class="btn btn-link">Link</button>
 <div (keyup)="0">
     <label>Entrada: </label>
-    <input #entrada [(ngModel)]='entradaText' (click)='modificarTitulo($event)'/>
+    <input #entrada [ngModel]='entradaText' (click)='modificarTitulo($event)'/>
     <strong>entrada.value:</strong>{{entrada.value}} - <strong>entradaText:</strong> {{entradaText1}}
 </div>
 <p>

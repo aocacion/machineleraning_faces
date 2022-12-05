@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ModuloPrueba" />
+        <module name="machineleraning_faces" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="machineleraning_faces (1) (com.ia)" target="17" />
+      <module name="ModulePrueba" target="1.5" />
+      <module name="ModuloHijo" target="17" />
+      <module name="ModuloPrueba" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="machineleraning_faces" options="-parameters" />
+      <module name="machineleraning_faces (1) (com.ia)" options="-parameters" />
+    </option>
+  </component>
+</project>
