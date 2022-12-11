@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ModuloPrueba" />
         <module name="machineleraning_faces" />
+        <module name="rostros" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="machineleraning_faces" options="-parameters" />
       <module name="machineleraning_faces (1) (com.ia)" options="-parameters" />
+      <module name="rostros" options="-parameters" />
     </option>
   </component>
 </project>

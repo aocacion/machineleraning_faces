@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/ModuloPrueba/pom.xml" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/rostros/pom.xml" />
+        <option value="$PROJECT_DIR$/server/ReconocimientoFacial/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
